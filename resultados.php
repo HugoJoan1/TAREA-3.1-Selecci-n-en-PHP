@@ -1,5 +1,11 @@
 
 <?php
+    echo "<style>
+        html{
+            background-color: #00ccff;
+            text-align: center;
+        }
+    </style>";
     $nombre = $_POST['nombre'] ?? "No ingresaste tu nombre";
     $correo = $_POST['correo'] ?? "No ingresaste tu correo";
     $destino = $_POST['destino'] ?? ["No seleccionaste ningun destino"];

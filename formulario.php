@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        html{
+            background-color: #00ccff;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
         <form action= "/TAREA-3.1-Selecci-n-en-PHP/resultados.php" method="POST">
+        <h1>TAREA 3.1: Selección en PHP</h1>
+        <h4>Ingresa tus datos y datos del viaje<h4>
         <h2>Datos del cliente</h2>
         <label for="nombre">Nombre completo</label>
         <input type="text" step="any" id="nombre" name="nombre" required>
