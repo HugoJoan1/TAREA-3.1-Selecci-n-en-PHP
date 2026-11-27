@@ -6,17 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+        <form action= "/TAREA-3.1-Selecci-n-en-PHP/resultados.php" method="POST">
         <h2>Datos del cliente</h2>
-        <form method="POST" action="">
         <label for="nombre">Nombre completo</label>
-        <input type="text" step="any" name="nombre" required>
+        <input type="text" step="any" id="nombre" name="nombre" required>
         <br></br>
         <label for="correo">Correo electrónico</label>
-        <input type="text" step="any" name="correo" required>
+        <input type="text" step="any" id="correo" name="correo" required>
         <br></br>
-        </form>
-
-        <form action= "/TAREA-3.1-Selecci-n-en-PHP/resultados.php" method="POST">
+   
         
         <h2>Destinos: </h2>
         <label for="destino">Destinos:</label>
